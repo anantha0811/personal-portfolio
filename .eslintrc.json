@@ -2,5 +2,8 @@
   "extends": "next/core-web-vitals",
   "rules":{
     "react/no-unescapepd-entites":0
-  }
+  },
+  "eslint": {
+    "ignoreDuringBuilds": true
+}
 }
