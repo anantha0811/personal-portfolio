@@ -2,8 +2,7 @@
 
 import { getErrorMessage, validateString } from "@/lib/Utils";
 import {Resend} from "resend";
-import ContactFormEmail from "@/email/ContactFormEmail";
-import React from "react";
+
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -34,10 +33,7 @@ export const sendEmail = async (formData: FormData) => {
         to: 'ananthakrishnanb0@gmail.com',
         subject: 'Message from contact form',
         reply_to: senderEmail,
-        react: React.createElement(ContactFormEmail,{
-          message: message,
-          senderEmail: senderEmail
-        })
+        text: message
       })
     }catch(error){
       return{
