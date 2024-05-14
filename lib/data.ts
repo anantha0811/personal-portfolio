@@ -38,8 +38,7 @@ export const experiencesData = [
   {
     title: "System Associate",
     location: "Infosys",
-    description:
-      "Working as a System Associate in Infosys.Engaging in both automated and manual testing.",
+    description: "Working as a System Associate in Infosys.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - Present",
   },
