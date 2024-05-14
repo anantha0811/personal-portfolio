@@ -3,9 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import quiz from "@/public/quiz.jpeg";
-import linkVault from "@/public/linkVault.png"
-import logo from "@/public/logo.png"
-import weather from "@/public/weather.jpg"
+import linkVault from "@/public/linkVault.png";
+import logo from "@/public/logo.png";
+import weather from "@/public/weather.jpg";
 
 export const links = [
   {
@@ -51,7 +51,6 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2019-2022",
   },
-  
 ] as const;
 
 export const projectsData = [
@@ -77,11 +76,12 @@ export const projectsData = [
     imageUrl: linkVault,
   },
   {
-    title:"Quiz App",
-    description:"A simple quiz app that has timer, scoring system and memory to store highest score",
-    tags:["HTML", "CSS","JavaScript"],
-    imageUrl: quiz
-  }
+    title: "Quiz App",
+    description:
+      "A simple quiz app that has timer, scoring system and memory to store highest score",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: quiz,
+  },
 ] as const;
 
 export const skillsData = [
@@ -91,10 +91,13 @@ export const skillsData = [
   "CSS",
   "C/C++",
   "Kotlin",
+  "Javascript",
+  "Typescript",
   "React Native",
-  "React.js",
-  "Node.js",
-  "Express.js",
+  "ReactJS",
+  "NodeJS",
+  "ExpressJS",
+  "NextJS",
   "MongoDB",
   "MySQL",
   "Keras",
@@ -104,6 +107,7 @@ export const skillsData = [
   "Redux",
   "Docker",
   "AWS",
+  "Azure",
   "Kubernetes",
   "Git",
   "Postman",
@@ -111,6 +115,5 @@ export const skillsData = [
   "Power Bi",
   "Selenium",
   "UFT",
-  "XML"
-
+  "XML",
 ] as const;
